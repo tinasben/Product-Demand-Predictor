@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON to HTML Table</title>
+</head>
+<body>
+    <div id="table-container"></div>
+    <script>
+        let data = ('{{ data|tojson|safe }}');
+        let table = '<table>';
+        table += '<tr>';
+        // create the table headers
+        for (let key of Object.keys(data[0])) {
+            table += `<th>${key}</th>`;
+        }
+        table += '</tr>';
+        // loop through the objects in the data array
+        for (let obj of Object.values(data)) {
+          table += '<tr>';
+          // loop through the values of each object
+          for (let value of Object.values(obj)) {
+            table += `<td>${value}</td>`;
+          }
+          table += '</tr>';
+        }
+        table += '</table>';
+        // add the table to the HTML document
+        document.getElementById('table-container').innerHTML = table;
+    </script>
+</body>
+</html>
