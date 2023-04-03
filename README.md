@@ -89,6 +89,6 @@ The [gain](./gain.py) file contains the gain value which it obtains from the tra
 > View the [gain](./gain.py) for more details.
 # Product-Demand-Predictor
 
-<img width="960" alt="1" src="https://user-images.githubusercontent.com/91911272/229446510-76af6e8a-eacc-41dc-b360-fe3882a4f252.png">
-<img width="960" alt="2" src="https://user-images.githubusercontent.com/91911272/229446518-3e06efc7-2e44-45f6-ac2b-2933752ee64f.png">
-![3](https://user-images.githubusercontent.com/91911272/229447107-990ad59b-634f-417e-9800-ec8691b619f1.png)
+![1](https://user-images.githubusercontent.com/91911272/229447948-7779b43a-82f1-4cc9-bb07-c53a0c3e2069.png)
+![4](https://user-images.githubusercontent.com/91911272/229447954-ade277cd-bf96-41e2-ba77-f87d226fcd88.png)
+
